@@ -1,0 +1,1 @@
+function fn(r,n){return Math.floor(Math.random()*(n-r+1)+r)}for(var brr=[];brr.length<10;){var num=fn(10,100);-1==brr.indexOf(num)&&brr.push(num)}console.log(brr);

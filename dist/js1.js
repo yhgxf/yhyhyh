@@ -1,0 +1,1 @@
+function rendom(r,n){return Math.floor(Math.random()*(n-r+1)+r)}function getArr(){for(var r=[],n=0;n<10;n++){var o=rendom(1,10);-1==r.indexOf(o)?r.push(o):n--}return r}console.log(getArr());
